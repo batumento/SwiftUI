@@ -28,5 +28,5 @@ struct MapView: View {
 
 
 #Preview {
-    MapView(coordinate: landmarks[2].locationCoordinates)
+    MapView(coordinate: ModelData().landmarks[2].locationCoordinates)
 }
