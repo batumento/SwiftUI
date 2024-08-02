@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LandmarkRow: View {
     var landmark: LandMark
+
     var body: some View {
         HStack {
             landmark.image

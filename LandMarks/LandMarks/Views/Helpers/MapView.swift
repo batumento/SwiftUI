@@ -17,6 +17,7 @@ struct MapView: View {
                 MapPitchToggle()
             }
     }
+
     private var region: MKCoordinateRegion {
         MKCoordinateRegion(
             center: coordinate,
